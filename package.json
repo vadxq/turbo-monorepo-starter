@@ -1,0 +1,27 @@
+{
+  "name": "vite-monorepo-starter",
+  "version": "0.1.0",
+  "description": "vite monorepo starter with pnpm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadxq/vite-monorepo-starter.git"
+  },
+  "keywords": [
+    "vite",
+    "pnpm",
+    "monorepo"
+  ],
+  "author": "vadxq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vadxq/vite-monorepo-starter/issues"
+  },
+  "homepage": "https://github.com/vadxq/vite-monorepo-starter#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
