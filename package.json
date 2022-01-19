@@ -29,6 +29,7 @@
   },
   "turbo": {
     "baseBranch": "origin/main",
+    "npmClient": "pnpm",
     "pipeline": {
       "build": {
         "dependsOn": [
@@ -48,9 +49,17 @@
       "lint": {
         "outputs": []
       },
+      "deploy": {
+        "dependsOn": [
+          "build"
+        ]
+      },
       "dev": {
         "cache": false
       }
     }
+  },
+  "dependencies": {
+    "prettier": "^2.5.1"
   }
 }
