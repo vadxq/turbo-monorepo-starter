@@ -1,0 +1,31 @@
+{
+  "name": "@vitemono/shared",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prepare": "pnpm run build",
+    "dev": "tsup --watch",
+    "build:test": "tsup --mode test",
+    "build": "tsup"
+  },
+  "browser": {
+    "./types": "./dist/types/index.js",
+    "./utils": "./dist/utils/index.js"
+  },
+  "exports": {
+    "./types": {
+      "import": "./dist/types/index.mjs",
+      "require": "./dist/types/index.js"
+    },
+    "./utils": {
+      "import": "./dist/utils/index.mjs",
+      "require": "./dist/utils/index.js"
+    },
+    "./config": "./config"
+  },
+  "devDependencies": {
+    "tsup": "^5.11.13"
+  },
+  "author": "vadxq",
+  "license": "MIT"
+}

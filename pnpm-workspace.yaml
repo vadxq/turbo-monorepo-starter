@@ -1,6 +1,6 @@
 packages:
   # the root package.json
-  - '.'
+  # - '.'
   # all apps are inside apps directories
   - "apps/**"
   # all packages in subdirs of packages/ and components/
