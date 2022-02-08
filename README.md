@@ -1,3 +1,3 @@
-# vite-monorepo-starter
+# turbo-monorepo-starter
 
-> vite monorepo starter
+> turbo monorepo starter

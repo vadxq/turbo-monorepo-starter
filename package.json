@@ -1,7 +1,7 @@
 {
-  "name": "vite-monorepo-starter",
+  "name": "turbo-monorepo-starter",
   "version": "0.1.0",
-  "description": "vite monorepo starter with pnpm",
+  "description": "turbo monorepo starter with pnpm",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vadxq/vite-monorepo-starter.git"
+    "url": "git+https://github.com/vadxq/turbo-monorepo-starter.git"
   },
   "keywords": [
-    "vite",
+    "turbo",
     "pnpm",
     "monorepo",
     "turborepo"
@@ -24,9 +24,9 @@
   "author": "vadxq",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vadxq/vite-monorepo-starter/issues"
+    "url": "https://github.com/vadxq/turbo-monorepo-starter/issues"
   },
-  "homepage": "https://github.com/vadxq/vite-monorepo-starter#readme",
+  "homepage": "https://github.com/vadxq/turbo-monorepo-starter#readme",
   "devDependencies": {
     "pnpm": "^6.30.0",
     "prettier": "^2.5.1",
