@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# 禁用所有rebase
+echo "pre-rebase: Rebasing is dangerous. Don't do it."
+exit 1
