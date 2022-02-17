@@ -12,24 +12,24 @@ export const formatDate = (
   showZero?: boolean,
   showTime?: boolean
 ): string => {
-  console.log('format date', date);
-  const da = new Date(date);
-  const year: number = da.getFullYear();
-  const month: number = da.getMonth() + 1;
-  const day: number = da.getDate();
-  const hours: number = da.getHours();
-  const mins: number = da.getMinutes();
-  const secs: number = da.getSeconds();
-  let d = '';
+  console.log('format date', date)
+  const da = new Date(date)
+  const year: number = da.getFullYear()
+  const month: number = da.getMonth() + 1
+  const day: number = da.getDate()
+  const hours: number = da.getHours()
+  const mins: number = da.getMinutes()
+  const secs: number = da.getSeconds()
+  let d = ''
   if (showZero) {
     d = `${year}${middle}${month > 9 ? month : '0' + month}${middle}${
       day > 9 ? day : '0' + day
-    }`;
+    }`
   } else {
-    d = `${year}${middle}${month}${middle}${day}`;
+    d = `${year}${middle}${month}${middle}${day}`
   }
-  if (!showTime) return d;
+  if (!showTime) return d
   return `${d} ${hours > 9 ? hours : '0' + hours}:${
     mins > 9 ? mins : '0' + mins
-  }:${secs > 9 ? secs : '0' + secs}`;
-};
+  }:${secs > 9 ? secs : '0' + secs}`
+}
