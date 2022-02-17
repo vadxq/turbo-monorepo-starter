@@ -10,7 +10,8 @@
   },
   "browser": {
     "./types": "./dist/types/index.js",
-    "./utils": "./dist/utils/index.js"
+    "./utils": "./dist/utils/index.js",
+    "./configs/*": "./configs/*"
   },
   "exports": {
     "./types": {
@@ -21,7 +22,7 @@
       "import": "./dist/utils/index.mjs",
       "require": "./dist/utils/index.js"
     },
-    "./config": "./config"
+    "./configs/*": "./configs/*"
   },
   "devDependencies": {
     "tsup": "^5.11.13"
